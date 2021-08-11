@@ -9,12 +9,12 @@ namespace MyShop.Core.Models
     public abstract class BaseModel
     {
         public string Id { get; set; }
-        public DateTime createdDate { get; set; }
+        public DateTime CreatedDate { get; set; }
 
         public BaseModel()
         {
             this.Id = Guid.NewGuid().ToString();
-            this.createdDate = DateTime.Now;
+            this.CreatedDate = DateTime.Now;
         }
     }
 }
