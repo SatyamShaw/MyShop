@@ -56,6 +56,10 @@
     <Compile Include="Migrations\202108031552057_Initial.Designer.cs">
       <DependentUpon>202108031552057_Initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202108141237451_basket.cs" />
+    <Compile Include="Migrations\202108141237451_basket.designer.cs">
+      <DependentUpon>202108141237451_basket.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SQLRepository.cs" />
@@ -82,6 +86,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202108031552057_Initial.resx">
       <DependentUpon>202108031552057_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202108141237451_basket.resx">
+      <DependentUpon>202108141237451_basket.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
