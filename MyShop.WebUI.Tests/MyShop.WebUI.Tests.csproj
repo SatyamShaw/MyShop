@@ -83,7 +83,7 @@
     <Reference Include="System.Net.Http.WebRequest" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\BasketControlerTest.cs" />
+    <Compile Include="Controllers\BasketControllerTest.cs" />
     <Compile Include="Mocks\MockContext.cs" />
     <Compile Include="Mocks\MockHttpContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
